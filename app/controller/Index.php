@@ -9,7 +9,7 @@ class Index extends BaseController
     {
         return  123;
     }
-    
+
     public function hello()
     {
       return 456;

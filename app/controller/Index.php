@@ -14,4 +14,9 @@ class Index extends BaseController
     {
       return 456;
     }
+
+    public function test()
+    {
+        echo "分支";
+    }
 }

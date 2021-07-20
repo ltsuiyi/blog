@@ -24,4 +24,9 @@ class Index extends BaseController
     {
         echo "demo";
     }
+
+    public function product()
+    {
+        echo "产品";
+    }
 }

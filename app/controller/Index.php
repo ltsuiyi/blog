@@ -19,4 +19,9 @@ class Index extends BaseController
     {
         echo "分支";
     }
+
+    public function demo()
+    {
+        echo "demo";
+    }
 }

@@ -9,8 +9,24 @@ class Index extends BaseController
     {
         return  123;
     }
-    public function hello($name = 'ThinkPHP6')
+    
+    public function hello()
     {
-        return 'hello,' . $name;
+      return 456;
+    }
+
+    public function test()
+    {
+        echo "分支";
+    }
+
+    public function demo()
+    {
+        echo "demo";
+    }
+
+    public function product()
+    {
+        echo "产品";
     }
 }
